@@ -11,7 +11,7 @@ services:
       - ./.env
 
   web:
-    image: evocc/infra:latest
+    image: evocc/api_yamdb:latest
     restart: always
     volumes:
       - static_value:/app/static/
