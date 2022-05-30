@@ -12,6 +12,7 @@ def get_fk_model(model, fieldname):
     field_object = model._meta.get_field(fieldname)
     if isinstance(field_object, ForeignKey):
         return field_object.related_model
+    return None
 
 
 def csv_parser(csv_filename):
@@ -20,6 +21,7 @@ def csv_parser(csv_filename):
         for row in reader:
             if row:
                 yield row
+    return
 
 
 def insert_data(model, file):
