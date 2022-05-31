@@ -1,4 +1,4 @@
-![yamdb_final workflow](https://github.com/chief1978/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![yamdb_final workflow](https://github.com/chief1978/yamdb_final/actions/workflows/yamdb_workflow.yaml/badge.svg)
 # Проект YaMDb
 ## О проекте
 Учебный проект API для YaMDB. Выполнено в рамках групового проекта 15 спринта курса Python-разработчик [Япрактикум](https://practicum.yandex.ru/)
