@@ -88,8 +88,9 @@ docker-compose exec web python manage.py loaddata fixtures.json
 [/redoc/](http://127.0.0.1/redoc/)
 - Админка
 [/admin/](http://127.0.0.1/admin/)
-## Приложение
-Ознакомится с приложением, не разворачивая его локально, можно по адресу
+## Документация online
+Ознакомится с приложением, не разворачивая его локально, можно по адресу:
+- swagger
 [/swagger/](http://51.250.38.95/swagger/)
 - redoc
 [/redoc/](http://51.250.38.95/redoc/)
